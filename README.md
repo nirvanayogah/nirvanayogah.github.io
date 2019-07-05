@@ -1,2 +1,2 @@
 # nirvanayogah.github.io
-NirvanaYogah Website
+NirvanaYogah Website 1
