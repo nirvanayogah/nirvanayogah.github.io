@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>Nirvana Yogah</title>
+	    <meta charset="utf-8">
+	    <meta name="format-detection" content="telephone=no"/>
+	    <meta name="p:domain_verify" content="22d0e9ad2c3886044b8eb091d13ef456"/>
+	    <link rel="icon" href="images/Logo.ico" type="image/x-icon">
+	    <link rel="stylesheet" href="css/grid.css">
+	    <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" href="css/camera.css"/>
+	    <link rel="stylesheet" href="css/owl.carousel.css"/>
+	    <link rel="stylesheet" href="css/slider.css"/>
+	    <script src="js/jquery.js"></script>
+	    <script src="js/jquery-migrate-1.2.1.js"></script>
+	    <script src="js/jquery.equalheights.js"></script>
+	    <script src="js/script.js"></script>
+	    <!--[if (gt IE 9)|!(IE)]><!-->
+	    <script src="js/jquery.mobile.customized.min.js"></script>
+	    <!--<![endif]-->
+	    <script src="js/camera.js"></script>
+	    <script src="js/owl.carousel.js"></script>
+	    <!--[if lt IE 9]>
+	    <div style=' clear: both; text-align:center; position: relative;'>
+	        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+	            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"
+	                 height="42" width="820"
+	                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+	        </a>
+	    </div>
+	    <script src="js/html5shiv.js"></script>
+	    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	    <![endif]-->
+	    <style>
+	    	@-webkit-keyframes ticker {
+			  0% {
+			    -webkit-transform: translate3d(0, 0, 0);
+			    transform: translate3d(0, 0, 0);
+			    visibility: visible;
+			  }
+			  100% {
+			    -webkit-transform: translate3d(-100%, 0, 0);
+			    transform: translate3d(-100%, 0, 0);
+			  }
+			}
+			@keyframes ticker {
+			  0% {
+			    -webkit-transform: translate3d(0, 0, 0);
+			    transform: translate3d(0, 0, 0);
+			    visibility: visible;
+			  }
+			  100% {
+			    -webkit-transform: translate3d(-100%, 0, 0);
+			    transform: translate3d(-100%, 0, 0);
+			  }
+			}
+			.ticker-wrap {
+			  position: fixed;
+			  bottom: 0;
+			  width: 100%;
+			  overflow: hidden;
+			  height: 3rem;
+			  background-color: rgba(0, 0, 0, 0.9);
+			  padding-left: 100%;
+			}
+			
+			.ticker {
+			  display: inline-block;
+			  height: 3rem;
+			  line-height: 3rem;
+			  white-space: nowrap;
+			  padding-right: 100%;
+			  -webkit-animation-iteration-count: infinite;
+			  animation-iteration-count: infinite;
+			  -webkit-animation-timing-function: linear;
+			  animation-timing-function: linear;
+			  -webkit-animation-name: ticker;
+			  animation-name: ticker;
+			  -webkit-animation-duration: 75s;
+			  animation-duration: 75s;
+			}
+			.ticker__item {
+			  display: inline-block;
+			  padding: 0 2rem;
+			  font-size: 1.5rem;
+			  color: white;
+			}
+			
+			@-webkit-keyframes ticker1 {
+			  0% {
+			    -webkit-transform: translate3d(0, 0, 0);
+			    transform: translate3d(0, 0, 0);
+			    visibility: visible;
+			  }
+			  100% {
+			    -webkit-transform: translate3d(-100%, 0, 0);
+			    transform: translate3d(-100%, 0, 0);
+			  }
+			}
+			@keyframes ticker1 {
+			  0% {
+			    -webkit-transform: translate3d(0, 0, 0);
+			    transform: translate3d(0, 0, 0);
+			    visibility: visible;
+			  }
+			  100% {
+			    -webkit-transform: translate3d(-100%, 0, 0);
+			    transform: translate3d(-100%, 0, 0);
+			  }
+			}
+			.ticker-wrap1 {
+			  bottom: 0;
+			  width: 100%;
+			  overflow: hidden;
+			  height: 3rem;
+			  padding-left: 100%;
+			}
+			
+			.ticker1 {
+			  display: inline-block;
+			  height: 3rem;
+			  line-height: 3rem;
+			  white-space: nowrap;
+			  padding-right: 100%;
+			  -webkit-animation-iteration-count: infinite;
+			  animation-iteration-count: infinite;
+			  -webkit-animation-timing-function: linear;
+			  animation-timing-function: linear;
+			  -webkit-animation-name: ticker;
+			  animation-name: ticker;
+			  -webkit-animation-duration: 50s;
+			  animation-duration: 50s;
+			}
+			.ticker__item1 {
+			  display: inline-block;
+			  padding: 0 1rem;
+			  font-size: 1.5rem;
+			  color: black;
+			}
+	    </style>
+	</head>
+	<body>
+		<div class="page">
+			<!--========================================================
+			                          HEADER
+			=========================================================-->
+			<header id="header">
+			    <div id="stuck_container">
+			        <div class="container1">
+			            <div class="row">
+			                <div class="grid_14">
+			                    <div class="brand put-left" >
+			                        <h1>
+			                            <a href="index.html">
+			                                <img src="images/logo.png" alt="Logo"/>
+			                            </a>
+			                        </h1>
+			                    </div>
+			                    <nav class="nav put-right">
+			                        <ul class="sf-menu">
+			                            <li class="current"><a href="#">Home</a></li>
+			                            <li>
+			                                <a href="#">About Us</a>
+			                                <ul>
+			                                	<li><a href="Objectives.html">Objectives</a></li>
+			                                	<li><a href="Uniqueness.html">Uniqueness</a></li>
+			                                	<li><a href="Aword.html">A Word</a></li>
+			                                	<li><a href="Mission.html">Our Mission</a></li>
+			                                	<li><a href="yoga_is_not_a_myth.html">Yoga is not a myth</a></li>
+			                                    <li><a href="yogacharyaVinayak.html">Yogacharya Vinayak</a></li>
+			                                    <li><a href="pratibhaVinayakJoshi.html">Pratibha Vinayak Joshi</a></li>
+			                                </ul>
+			                            </li>
+			                            <li>
+			                                <a href="#">Research</a>
+			                                <ul>
+			                                	<li><a href="YogainEducation.html">Yoga in Education</a></li>
+			                                	<li><a href="YogaforAsthama.html">Yoga for Asthama</a></li>
+			                                </ul>
+			                            </li>
+			                            <li>
+			                            	<a href="#">Services</a>
+			                            	<ul>
+			                                	<li><a href="Packages.html">Packages</a></li>
+			                                </ul>
+			                            </li>
+			                            <li>
+			                            	<a href="#">Workshops</a>
+			                            	<ul>
+			                                	<li><a href="CrisisManagement.html">Crisis Management</a></li>
+			                                	<li><a href="DesireManagement.html">Desire Management</a></li>
+			                                	<li><a href="StressManagement.html">Stress Management</a></li>
+			                                	<li><a href="YogaforDaytoDayStress.html">Yoga for day to day stress related problems</a></li>
+			                                	<li><a href="SelfManagement.html">Self Management</a></li>
+			                                	<li><a href="ConflictManagement.html">Conflict Management</a></li>
+			                                	<li><a href="LaughterYoga.html">Laughter Yoga</a></li>
+			                                	<li><a href="SpiritualRetreat.html">Spiritual Retreat</a></li>
+			                                	<li><a href="CanRelaxationAndStudyGoTogether.html">Can Relaxation and study go together?</a></li>
+			                                	<li><a href="InterpersonaRelationships.html">Interpersonal Relationships and Personality Development</a></li>
+			                                	
+			                                </ul>
+			                            </li>
+			                            <li>
+			                            	<a href="#">Techniques</a>
+			                            	<ul>
+			                                	<li><a href="Exercises.html">Exercise</a></li>
+			                                    <li><a href="SukhmaVyama.html">Sukshma Vyayama</a></li>
+			                                    <li><a href="Yogasan.html">Yogasan</a></li>
+			                                    <li><a href="Kriya.html">Kriya</a></li>
+			                                    <li><a href="Pranayam_Mudra_Bandhas.html">Pranayam, Mudra and Bandha</a></li>
+			                                    <li><a href="Meditation.html">Meditation and Yoganidra</a></li>
+			                                    <li><a href="SpecialYogaTechniques.html">Special Yoga Technique</a></li>
+			                                </ul>
+			                            </li>
+			                            <li>
+			                            	<a href="#">Blog</a>
+			                            	<ul>
+			                                	<li><a href="Audio.html">Audio</a></li>
+			                                    <li><a href="Interviews.html">Interviews</a></li>
+			                                    <li><a href="Kriyas.html">Kriyas</a></li>
+			                                    <li><a href="Gallery.html">Gallery</a></li>
+			                                </ul>
+			                            </li>
+			                            <li>
+			                            	<a href="FAQ.html">FAQ</a>
+			                            </li>
+			                            <li><a href="ContactUs.html">Contact Us</a></li>
+			                        </ul>
+			                    </nav>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</header>
+			<!--========================================================
+			                          CONTENT
+			=========================================================-->
+			<section id="content">
+				<div class="camera_wrapper">
+				    <div id="camera" class="camera_wrapper">
+				        <div data-src="images/Image1.jpg"></div>
+				        <div data-src="images/Image2.jpg"></div>
+				        <div data-src="images/Image3.jpg"></div>
+				    </div>
+				</div>
+				
+				<div class="ticker-wrap1" >
+					<div class="ticker1">
+					  <div class="ticker__item1 text_2 color_2">What you think, that you become - swami vivekananda</div>
+					  <div class="ticker__item1 text_2 color_2">What you think, that you become - swami vivekananda</div>
+					  <div class="ticker__item1 text_2 color_2">What you think, that you become - swami vivekananda</div>
+					  <div class="ticker__item1 text_2 color_2">What you think, that you become - swami vivekananda</div>
+					  <div class="ticker__item1 text_2 color_2">What you think, that you become - swami vivekananda</div>
+					</div>
+				</div>
+				
+			    <div class="container">
+				    <div class="row wrap_21">
+				        <div class="grid_3">
+				            <div class="box_1">
+				                <div class="icon_1"></div>
+				                <h3 class="text_2 color_2 maxheight1"><a href="#">Diabetes</a></h3>
+				                <p class="text_3 color_2 maxheight">
+				                    Modern style of living have given comforts, but in the meantime it has its darker side too.
+				                </p>
+				                <a class="btn_2" href="Diabetes.html">read more</a></div>
+				        </div>
+				        <div class="grid_3">
+				            <div class="box_1">
+				                <div class="icon_2"></div>
+				                <h3 class="text_2 color_2 maxheight1"><a href="#">Back Pain</a></h3>
+				                <p class="text_3 color_2 maxheight">
+				                   There are special yogic techniques exclusively for backpain which can handle many
+				                </p>
+				                <a class="btn_2" href="Back pain.html">read more</a></div>
+				        </div>
+				        <div class="grid_3">
+				            <div class="box_1">
+				                <div class="icon_3"></div>
+				                <h3 class="text_2 color_2 maxheight1"><a href="#">Spondylitis</a></h3>
+				                <p class="text_3 color_2 maxheight">
+				                    Kerem ipsum dolor sit amettetur dipiscing elit. In mollis erat mattis
+				                </p>
+				                <a class="btn_2" href="#">read more</a></div>
+				        </div>
+				        <div class="grid_3">
+				            <div class="box_1">
+				                <div class="icon_4"></div>
+				                <h3 class="text_2 color_2 maxheight1"><a href="#">Weight Loss</a></h3>
+				                <p class="text_3 color_2 maxheight">
+				                    Slim yourself with energy freshness and that glow.
+									10 days, 2 hours a day camp
+									Yogasana
+									
+				                </p>
+				                <a class="btn_2" href="WeightLoss.html">read more</a></div>
+				        </div>
+				    </div>
+				</div>
+				
+				
+				<div class="white">
+					<div class="container">
+						<div class="row">
+							
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="container2">
+				    <div class="row wrap_16">
+				        <div class="grid_6">
+				        	<div>
+				                <h2 class="header_1 color_3">
+				                    News
+				                </h2>
+				            </div>
+			                 <div class="col-md-6 col-md-push-6 centered">
+								<div id="nt-example2-container">
+					                <ul id="nt-example2">
+					                    <li data-infos="Cras sagittis nulla sit amet feugiat pulvinar. Fusce scelerisque aliquet purus, sit amet rutrum augue euismod ut. Aliquam erat volutpat. Integer convallis, ligula non bibendum dictum, ante lectus fringilla nunc, at euismod neque enim sit amet ante. In risus velit, porttitor blandit magna vel, adipiscing semper libero. ">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">08:12</span> Etiam imperdiet volutpat libero eu tristique.
+					                    </li>
+					                    <li data-infos="Quisque imperdiet, tellus et tempus mattis, risus ipsum molestie leo, in tincidunt nisl nunc at magna. Suspendisse pretium ullamcorper feugiat. Nunc quis egestas odio, eu vestibulum nisl. In hac habitasse platea dictumst. Aliquam vel dapibus lacus. Curabitur pharetra quam purus. Suspendisse sed nulla condimentum nibh blandit consectetur non eget velit.">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">08:41</span> Curabitur porttitor ante eget hendrerit adipi.
+					                    </li>
+					                    <li data-infos="Vestibulum ac interdum quam, tempus aliquet purus. Nunc luctus augue ut pellentesque faucibus. Proin urna nunc, feugiat ac bibendum non, cursus id orci. Integer porttitor diam et odio pharetra, sed congue augue dapibus. Fusce ac tristique tortor. Aliquam adipiscing ligula in dui pretium ultrices.">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">10:02</span> Praesent ornare nisl lorem, ut condi.
+					                    </li>
+					                    <li data-infos="Proin vulputate mi pharetra tellus semper dapibus. Vestibulum non metus convallis, lobortis velit eu, facilisis mauris. Mauris mattis ante sit amet nulla egestas, ut consectetur tortor tristique. In porttitor non eros nec scelerisque. Sed eu condimentum tellus, et feugiat urna. Duis semper ligula a risus suscipit, ut vestibulum mi tempor.">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">10:14</span> Nunc ultrices tortor eu massa placerat posuere.
+					                    </li>
+					                    <li data-infos="Sed facilisis, erat at accumsan tincidunt, metus diam convallis tortor, at facilisis tortor libero sed ante. Sed ut felis sed felis scelerisque bibendum. Ut quis aliquet magna. Phasellus elementum volutpat mattis. Proin in rutrum ante, at imperdiet dolor. Vivamus congue turpis facilisis congue ullamcorper. Etiam sollicitudin quis dolor hendrerit ultricies.">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">11:23</span> Morbi sodales tellus sit amet leo congue bibendum.
+					                    </li>
+					                    <li data-infos="Raesent aliquam sapien quis pretium vestibulum. Vestibulum varius velit leo, quis facilisis enim mattis id. Proin et tempor ligula, id dapibus neque. Aliquam egestas adipiscing tellus. Morbi enim leo, fringilla eget vulputate tincidunt, fringilla et sapien. Curabitur ultricies auctor lectus, quis ultricies sem tincidunt sit amet. Mauris non tempor ipsum. Sed sed ipsum nulla. Quisque laoreet velit dolor, nec placerat odio ullamcorper eget.">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">11:45</span> In pharetra suscipit orci sed viverra. Praesent at.
+					                    </li>
+					                    <li data-infos="Praesent ut eleifend lorem. Duis ut velit quis mauris molestie aliquam vitae id diam. Etiam eget mauris condimentum, lacinia lectus et, aliquet ligula. Nulla rutrum tincidunt tincidunt. Maecenas eu dolor vestibulum, pellentesque erat non, molestie nibh. Morbi ac semper quam. Aliquam erat volutpat.">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">11:55</span> Maecenas nec ligula sed est suscipit aliquet sed.
+					                    </li>
+					                    <li data-infos="Duis euismod, mi nec posuere malesuada, nisl leo bibendum ligula, sit amet vestibulum est neque non sapien. Curabitur mi massa, bibendum cursus scelerisque imperdiet, semper eu lacus. Etiam mauris eros, faucibus eu pretium vitae, rutrum vel urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin laoreet pellentesque felis, sed vulputate justo rhoncus et. ">
+					                    	<i class="fa fa-fw fa-play state"></i>
+					                    	<span class="hour">12:00</span> Onec bibendum consectetur diam, nec eui.
+					                    </li>
+					                </ul>
+					                <div id="nt-example2-infos-container">
+						                <div id="nt-example2-infos-triangle"></div>
+						                <div id="nt-example2-infos" class="row">
+						                	<div class="col-xs-4 centered">
+							                	<div class="infos-hour">
+							                		08:12
+							                	</div>
+							                	<i class="fa fa-arrow-left" id="nt-example2-prev"></i>
+							                	<i class="fa fa-arrow-right" id="nt-example2-next"></i>
+						                	</div>
+						                	<div class="col-xs-8">
+						                		<div class="infos-text">Cras sagittis nulla sit amet feugiat pulvinar. Fusce scelerisque aliquet purus, sit amet rutrum augue euismod ut. Aliquam erat volutpat. Integer convallis, ligula non bibendum dictum, ante lectus fringilla nunc, at euismod neque enim sit amet ante. In risus velit, porttitor blandit magna vel, adipiscing semper libero.</div>
+						                	</div>
+						                </div>
+					                </div>
+					            </div>
+				            </div>
+				        </div>
+				        <div class="grid_6">
+				        	<div>
+				                <h2 class="header_1 color_3">
+				                    Events
+				                </h2>
+				            </div>
+				            <div class="col-md-7 centered">
+								<div id="nt-example1-container">
+									<i class="fa fa-arrow-up" id="nt-example1-prev"></i>
+					                <ul id="nt-example1">
+					                    <li>Etiam imperdiet volutpat libero eu tristique. Aenean, rutrum felis in. <a href="">Read more...</a></li>
+					                    <li>Curabitur porttitor ante eget hendrerit adipiscing. Maecenas at magna. <a href="">Read more...</a></li>
+					                    <li>Praesent ornare nisl lorem, ut condimentum lectus gravida ut. <a href="">Read more...</a></li>
+					                    <li>Nunc ultrices tortor eu massa placerat posuere. Vivamus viverra sagittis. <a href="">Read more...</a></li>
+					                    <li>Morbi sodales tellus sit amet leo congue bibendum. Ut non mauris eu neque. <a href="">Read more...</a></li>
+					                    <li>In pharetra suscipit orci sed viverra. Praesent at sollicitudin tortor, id. <a href="" >Read more...</a> </li>
+					                    <li>Maecenas nec ligula sed est suscipit aliquet sed eget ipsum, suspendisse. <a href="">Read more...</a></li>
+					                    <li>Onec bibendum consectetur diam, nec euismod urna venenatis eget.. <a href="">Read more...</a> </li>
+					                </ul>
+					                <i class="fa fa-arrow-down" id="nt-example1-next"></i>
+					            </div>
+							</div>
+				        </div>
+				    </div>
+				</div>
+			 	
+			    <div class="ticker-wrap" >
+					<div class="ticker">
+					  <div class="ticker__item">Yoga integrates our personality</div>
+					  <div class="ticker__item">Yoga makes our body strong and healthy</div>
+					  <div class="ticker__item">Yoga is a way of life</div>
+					  <div class="ticker__item">Yoga helps us to grow spiritually by turning us inwards</div>
+					  <div class="ticker__item">Yoga is a tool to calm down the mind</div>
+					  <div class="ticker__item">Yoga is the unknotting of the mind to reach the state of pure consciousness</div>
+					  <div class="ticker__item">Yoga cultures our emotions by making us sensitive to our sensitivity</div>
+					  <div class="ticker__item">Yoga makes us live in tune with others by enasbling us to become socially healthy</div>
+					  <div class="ticker__item">Yoga protects us from becoming slaves to our intellect by adding detachment to it</div>
+					  <div class="ticker__item">Yoga sharpens the intellect by making dull brain cells active and developing concentration</div>
+					  <div class="ticker__item">Yoga is not ‘meant to an end’ tather ‘an end in itrself’</div>
+					  <div class="ticker__item">Yoga is awareness</div>
+					</div>
+				</div>
+			    
+				<div class="bg_1 wrap_4">
+				    <div class="container">
+				        <div class="row">
+				            <div class="preffix_2 grid_8">
+				                <h2 class="header_1 wrap_3 color_3">
+				                    Nirvana
+				                </h2>
+				            </div>
+				        </div>
+				        <div class="row">
+				            <div class="grid_12">
+				                <div class="box_1">
+				                    <p class="text_3">
+					                    The word Nirvana comes from the root meaning 'to blow out' and refers to the extinguishing of the fires of greed, hatred and delusion. When these emotional and psychological defilements are destroyed by wisdom, the mind becomes free, radiant and joyful and at death one is no longer subject to rebirth
+										word nirvana to means "liberation" or "unbinding". Nirvana is liberation, but liberation from what? The standard answer is "samsara," which usually is defined as the cycle of birth, death, and rebirth. Nirvana is also said to be liberation from dukkha,or the stress/pain/dissatisfaction of life. It is more like a state of existence.
+										<br/>
+				                        <br/>
+										
+									</p>
+				                    <p class="text_11">
+					                    “Nirvana is beyond space, time, and definition.”
+					                        <br/>
+					                        <br/>
+					                    “Nirvana is the ultimate happiness" (nibbanam paramam sukham)
+				                    </p>
+				                    
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+				
+				<div class="container" align="center">
+				    <img alt="Sri Ramakrishna" src="images/Sri Ramakrishna.jpg">
+				</div>
+				<div class="bg_1 wrap_2 wrap_3">
+				    <div class="container">
+				        <div class="row">
+				            <div class="grid_12">
+				                <h2 class="header_1 wrap_8 color_3">
+				                    Testimonials
+				                </h2>
+				            </div>
+				        </div>
+				        <div class="row wrap_3">
+				            <div class="grid_12">
+				                <div id="owl">
+				                    <div class="item">
+			                        	<blockquote>
+			                            	"I can unhesitatingly say that Vinayak Ji is not only a good yoga teacher, he also has the ability to reflect on the tradiotional wisdom of Yoga from the modern scientific perspective. In general, the participents of the workshop appreciated the workshop, Subsequently, many of them became admirer of Yoga and meditation techniques. According to my feedback, they benifited a great deal the practice."
+			                         	</blockquote>
+			                           <p class="text_9"> - Dr. A.K. Sharma <br>
+											Professor and Head <br>
+											Centre for Creative Writing and Publication <br>
+											Indian Institute of Technology Kanpur <br>
+				                        </p>
+				                    </div>
+				                    <div class="item">
+			                        	<blockquote>
+			                            	"I took yoga classes from Vinayakji in April 2006. It had indeed been a fantastic experience for me. I came to know that yoga has the power to cure almost all the physical problems. Yogacharyaji told me various ways to keep my mind calm and peaceful. This includes different meditation techniques and techniques for spiritual progress. I am thankful to Yogacharyaji who taught us the wonderful techniques which have changed our thinking."
+			                         	</blockquote>
+			                           <p class="text_9"> - Rachana Agarwal <br>
+											IIT-Kanpur <br>
+				                        </p>
+				                    </div>
+				                    <div class="item">
+				                        <blockquote>
+				                            "I like to thank Yogacharya Vinayak for conducting workshop on "Can studies and relaxation go together". By attending this workshop, the faculty, staff and students of IIIT got benefited. We hope to have this kind of interaction with him in future also"
+				                         </blockquote>
+				                         <p class="text_9">
+				                           - Rajeev Sangal<br>
+				                            Director IIT - BHU<br>
+				                            Former Director of IIIT-H<br>  
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                    	<blockquote>
+				                            "Yogacharya Vinayak a life worker of Viveknada Kendra Kanyakumari has impressed us tremendurously with his dedication and versatile talent in the teaching of Yoga and organization of voluntary contribution to social causes"
+				                        </blockquote>
+				                        <p class="text_9">
+				                           
+				                           - Anandi Lal Roongta<br>
+				                            IAS Officer<br>
+				                            Jaipur, Rajasthan<br>  
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+										<blockquote>				                        
+				                            "Dear Mr. Vinayak, May I say howmuch we have enjoyed and benifited from your very profound yogic instruction. I feel sure that every one that passes through your hands must come away as a changed person. Good luck with your visit to France. If you are able, please do visit us at: Albion, Navarino court, High Street, Lymington, Hampshire 50419AE, England"
+				                        </blockquote>
+				                         <p class="text_9">
+				                            <br>
+				                            - Tcotter@waitrose.com<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                        <blockquote>
+				                            "Yogacharya Vinayak, Director Yoga and Health, Khimsort Fort. My dear Vinayak Maharaja Ji, please accept my deep love. I reached Kheti mission on 11th September. I learnt yoga from you on 6th, 7th and 8th September. Really it was very pleasant period for me. Really maharaja it was my fortune that I got golden chance to stay with you. I have learnt so many things from you along with Yoga, which will help my whole life long. I pray god to bless you for this kind help. I am very grateful to you for your kind help, love and affection. I shall never forget such type of love and help in my whole life."
+				                        </blockquote>
+				                         <p class="text_9">
+				                           - With Love,<br>
+				                            Yours affectionaltely,<br>
+				                            Swami Ekananda<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                        <blockquote>
+				                            "Dear Vinayakjee, I, on behalf of GIT thank you for conducting one day workshop on <b>Sterss Management</b> for the faculty and management of the institute. Your in depth knowlwdge of subject and expertise as trainer made the event highly enjoyable learning experiece. All participents are deeply impressed with the ease and effectiveness of the relaxation techniques expiriencd during the workshop. We look forward to have more such oppurtunities. If you agree, we would like to hold similar workshop on varied topics, at least once in a month. Also we would like to introduce our students to some of the yogic techniques that can help them in their studies."
+				                        </blockquote>
+				                         <p class="text_9">
+				                            - Dr. S. P Gupta<br>
+				                            Principal<br>
+				                            Global institute of Technology<br>
+				                            Jaipur<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                       	<blockquote>
+				                            "Yogacharya Vinayak, The management of CMSIC is very thankful for your lecture and two days workshop on stress management for MMS(Master of Management Studies) students. Our students have been grately benifited from this workshop in the areas of stress mnagement, human relations and organiational behavior"
+				                       	</blockquote>
+				                         <p class="text_9">
+				                            - Sanjay Rajpal<br>
+				                            Course Coordinator<br>
+				                            CSMIC<br>
+				                            Malaviya National Institute of Technology<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                        <blockquote>
+				                            "Shri Yogacharya Vinayak ji, C/O Khimsar Fort Palace, I am extreamly grateful to you for sparing your valuable time and coming to Jaipur for workshop on <b>Stress Management</b>. All the participents who attended benifited from your contribution and have all praise for you. I am pleased to send few photographs taken on the occation."
+				                        </blockquote>
+				                         <p class="text_9">
+				                            - Sanjeev Agarwal<br>
+				                            Chairman<br>
+				                            Central India Regional Council of The Institute of Charted Accountants of India<br>
+				                            Jaipur<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                    	<blockquote>
+				                            "Dear Yogacharya, I had a yoga lesson with you which I found very inspirating and since then I decided to take up Yoga in England. I am writing to thank you for the things you told me about the Philosophy of Yoga and about how body and mind are connected. It made a lot of sense to me, and it has made me re-think the way I approach situations in life. I also remember a few basic techniques you taught my mother and me, such as the breathing techniques. I really hope that one day I might achieve some real peace of mind through it"
+				                        </blockquote>
+				                         <p class="text_9">
+				                            - Palestinian<br>
+				                            Salma<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                        <blockquote>
+				                            "Dear Yogacharya, It was a great prevelege to be able to come to Sybille's home and meet you. I love to follow your course and that is followig a new life for me, when I did my first contact with Yoga. I will remember mostly: Awareness and calm down the mind and the body and enjoy the moment. thanks a lot. Hope to meet you in India or anywhere"
+				                        </blockquote>
+				                         <p class="text_9">
+				                            - Valery Anne<br>
+				                            France<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                        <blockquote>
+				                            "Dear Vinayakji, Thank you deeply for having given your time for all of us to help us growing spirituality. Everone will take the piece she (he) needs and which suit in her(his) evolution. Everyone without exceptions enjoyed your teachings, your kindness, your company, concerning me without giving importance to my ego, you gave birth to a new direction in my life, to something which was waiting to get the push. Choiceless awareness and equanimity will be part of me during 24hrs everyday. I have the deep wish to transmit it to everyone, the conciousness of our divinity"
+				                        </blockquote>
+				                         <p class="text_9">
+				                            - Sybilla Jung<br>
+				                            France<br>
+				                        </p>
+				                    </div>
+				                    
+				                    <div class="item">
+				                        <blockquote>
+				                            "My first class was conducted today with Pratibha ma’am, she was very nice, helped in feeling relaxed, calm down and feel stretched.  It is very beneficial, it gave two benefits: 1) I did exercise 2) I feel very calm.
+											These both make me feel good. Also I feel very well because Pratibha Ma’am was very patient with me. She has shown me all exercises that made me feel extremely comfortable. I am waiting for my second class."
+										</blockquote>
+				                         <p class="text_9">
+											- Izene <br>
+											Greece<br>
+				                        </p>
+				                    </div>
+				                    <div class="item">
+				                        <blockquote>
+				                            "Yoga session taught me by yogacharya found very interesting, his explanation about yoga is very clear and fabulous."
+										</blockquote>
+				                         <p class="text_9">
+											- Tshering Wangmo<br>
+											Bhutan<br>
+											<br>
+				                        </p>
+				                    </div>
+				                     <div class="item">
+				                       <blockquote>
+				                            "The whole yoga session was relaxing and if given chance, would like to continue."<br>
+										</blockquote>
+				                         <p class="text_9">
+											- Tshering Pem<br>
+											BSc Botony Honours<br>
+											Sherabtse college, Kanglung Trashigang, Bhutan<br>
+											<br>
+				                        </p>
+				                    </div>
+				                    <div class="item">
+				                       	<blockquote>
+				                            "Yoga class is excellent and practical. I hope I will practice daily. Thanks Sir."<br>
+										</blockquote>
+				                         <p class="text_9">
+											- Dr.Arvind Pandey											<br>
+											<br>
+				                        </p>
+				                    </div>
+				                    <div class="item">
+				                        <blockquote>
+				                            "Because of yoga and naturopathy, there is lot of improvement in my health and the pain of both shoulders and both knees".<br> 
+										</blockquote>
+				                         <p class="text_9">
+											- Balgangadharan<br>
+											<br>
+				                        </p>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</section>
+		</div>
+		
+		<footer id="footer" class="wrap_3">
+			<div class="container">
+			    <div class="row wrap_16 wrap_21">
+			        <div class="grid_14">
+			            <div class="header_1 wrap_3" style="color: white;">
+			                Get in Touch
+			            </div>
+			            <div class="box_3">
+			                <ul class="list_1">
+			                    <li><a class="fa fa-twitter" href="https://twitter.com/nirvanayogah"></a></li>
+			                    <li><a class="fa fa-facebook" href="https://www.facebook.com/nirvanayogah"></a></li>
+			                    <li><a class="fa fa-google-plus" href="https://plus.google.com/105917017892959091818/posts"></a></li>
+			                    <li><a class="fa fa-pinterest" href="https://www.pinterest.com/nirvanayogah/"></a></li>
+			                </ul>
+			            </div>
+			        </div>
+			    </div>
+		        <div class="row">
+		            <div class="grid_14">
+		                <p class="info text_4 color_4">
+		                    © <span id="copyright-year"></span> | <a href="#">NIRVANA YOGAH. ALL RIGHTS RESERVED.</a> <br/>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		</footer>
+    <script src="js/chart.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/jquery.newsTicker.js"></script>
+    <script>
+    		$('a[href*=#]').click(function() {
+			    var href = $.attr(this, 'href');
+			    if (href != "#") {
+				    $('html, body').animate({
+				        scrollTop: $(href).offset().top - 81
+				    }, 500, function () {
+				        window.location.hash = href;
+				    });
+				}
+				else {
+					$('html, body').animate({
+				        scrollTop: 0
+				    }, 500, function () {
+				        window.location.hash = href;
+				    });
+				}
+			    return false;
+			});
+
+    		$(window).load(function(){
+	            $('code.language-javascript').mCustomScrollbar();
+	        });
+            var nt_title = $('#nt-title').newsTicker({
+                row_height: 40,
+                max_rows: 1,
+                duration: 3000,
+                pauseOnHover: 0
+            });
+            var nt_example1 = $('#nt-example1').newsTicker({
+                row_height: 100,
+                max_rows: 3,
+                duration: 4000,
+                prevButton: $('#nt-example1-prev'),
+                nextButton: $('#nt-example1-next')
+            });
+            var nt_example2 = $('#nt-example2').newsTicker({
+                row_height: 60,
+                max_rows: 1,
+                speed: 300,
+                duration: 5000,
+                prevButton: $('#nt-example2-prev'),
+                nextButton: $('#nt-example2-next'),
+                hasMoved: function() {
+                	$('#nt-example2-infos-container').fadeOut(200, function(){
+	                	$('#nt-example2-infos .infos-hour').text($('#nt-example2 li:first span').text());
+	                	$('#nt-example2-infos .infos-text').text($('#nt-example2 li:first').data('infos'));
+	                	$(this).fadeIn(400);
+	                });
+                },
+                pause: function() {
+                	$('#nt-example2 li i').removeClass('fa-play').addClass('fa-pause');
+                },
+                unpause: function() {
+                	$('#nt-example2 li i').removeClass('fa-pause').addClass('fa-play');
+                }
+            });
+            $('#nt-example2-infos').hover(function() {
+                nt_example2.newsTicker('pause');
+            }, function() {
+                nt_example2.newsTicker('unpause');
+            });
+            
+        </script>
+	</body>
+</html>
